@@ -1,0 +1,37 @@
+.OptionalsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+}
+
+.Checkbox {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Button {
+  align-items: center;
+  background: #ffbb47;
+  border: 0 solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1a202c;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+
+  transition: all;
+}
+
+.Button:hover {
+  background: #ffa200;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+}

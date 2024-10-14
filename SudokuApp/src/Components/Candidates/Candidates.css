@@ -1,0 +1,25 @@
+.Candidates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: auto;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 1/1;
+
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.Candidate {
+  display: flex; /* Add this to enable flexbox centering */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  color: lightgrey;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
